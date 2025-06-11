@@ -10,7 +10,7 @@ from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-st.set_page_config(page_title="MarketMentor AI", layout="wide")
+# st.set_page_config(page_title="MarketMentor AI", layout="wide")
 # Load environment variables
 # load_dotenv()
 api_key = st.secrets["OPENAI_API_KEY"]
