@@ -11,8 +11,8 @@ from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Load environment variables
-load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+# load_dotenv()
+api_key = st.secrets("OPENAI_API_KEY")
 # Initialize session state variables
 if 'history' not in st.session_state:
     st.session_state.history = []
