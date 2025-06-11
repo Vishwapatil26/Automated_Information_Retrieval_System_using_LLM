@@ -3,7 +3,7 @@ import streamlit as st
 import time
 import base64
 import datetime
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain_community.document_loaders import UnstructuredURLLoader
