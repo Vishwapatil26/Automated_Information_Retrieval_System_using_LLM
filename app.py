@@ -367,10 +367,10 @@ with tab2:
                 mime="text/plain"
             )
 
-            if st.button("Regenerate Summaries"):
-                st.session_state.summaries_generated = False
-                st.session_state.article_summaries = []
-                st.session_state.all_summaries_text = ""
-                st.experimental_rerun()
+            # if st.button("Regenerate Summaries"):
+            #     st.session_state.summaries_generated = False
+            #     st.session_state.article_summaries = []
+            #     st.session_state.all_summaries_text = ""
+            #     st.experimental_rerun()
     else:
         st.info("Please process URLs first to generate summaries.")
